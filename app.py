@@ -7,3 +7,5 @@ import streamlit as st
 
 x=pd.read_csv('test.csv')
 st.write(x)
+model = load_model('new_model.h5')
+
