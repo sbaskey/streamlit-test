@@ -4,7 +4,7 @@ import streamlit as st
 import pickle  # Example: Use the appropriate module for your model type
 
 # URL of the model on GitHub
-MODEL_URL = "https://github.com/sbaskey/Crop_Yield/blob/master/dnn/new_model.h5>"
+MODEL_URL = "https://github.com/sbaskey/streamlit-test/blob/main/new_model.h5"
 
 @st.cache_resource
 def download_and_load_model():
