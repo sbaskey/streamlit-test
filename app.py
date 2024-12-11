@@ -16,7 +16,7 @@ def download_and_load_model():
             model = pickle.load(f)  # Use appropriate loader for your model
         return model
     else:
-        st.error("Failed to download the model.")
+        st.error(f"Error loading the secondary dataset: {e}")
         return None
 
 # Load the model
